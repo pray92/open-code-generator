@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "./Navigation";
+import Navigation from "./Navigation";
+import GuitarPreview from "./GuitarPreview";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Navigation />
+      <GuitarPreview />
     </div>
   );
 }
