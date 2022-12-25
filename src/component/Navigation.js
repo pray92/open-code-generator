@@ -1,6 +1,6 @@
 import "./Navigation.css";
 
-export default function Header() {
+const Header = () => {
   return (
     <div className="open-code-generator-header">
       <img
@@ -12,3 +12,5 @@ export default function Header() {
     </div>
   );
 }
+
+export default Header;

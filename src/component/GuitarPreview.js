@@ -12,7 +12,9 @@ import Fret10 from "assets/fret-10.svg";
 import Fret11 from "assets/fret-11.svg";
 import Fret12 from "assets/fret-12.svg";
 
-export default function GuitarPreview() {
+import "./GuitarPreview.css";
+
+const GuitarPreview = () => {
   return (
     <div className="guitar-preview">
       <img src={Pitch} alt="Start Pitch Set" />
@@ -31,3 +33,5 @@ export default function GuitarPreview() {
     </div>
   );
 }
+
+export default GuitarPreview;
