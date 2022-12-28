@@ -1,3 +1,5 @@
 .open-code-generator-header {
-  display: flex;
+  width: 100%;
+  height: 40px;
+  background-color: #F5F5F5;
 }
